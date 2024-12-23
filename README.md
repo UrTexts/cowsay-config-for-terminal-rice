@@ -26,3 +26,18 @@ manager
    ```bash
    git clone https://github.com/UrTexts/cowsay-config-for-terminal-rice.git 
    cd random_message.sh
+
+Make the script executable:
+
+`chmod +x random_message.sh`
+
+Add the script to Kitty's startup configuration.
+
+Edit Kitty's configuration file (usually located at ~/.config/kitty/kitty.conf) and add:
+
+`shell_command ~/.config/random_message.sh`
+
+(Optional) Copy the script to your config folder:
+
+    cp random_message.sh ~/.config/
+
